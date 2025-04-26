@@ -30,17 +30,17 @@
     }
     .hero {
       text-align: center;
-      padding: 250px 20px 180px; /* Increased top and bottom padding */
+      padding: 250px 20px 180px;
     }
     .hero h1 {
       font-family: 'Inter', sans-serif;
-      font-size: 100px; /* Increased font size */
+      font-size: 80px;
       font-weight: 700;
       margin: 0;
       line-height: 1.1;
     }
     .hero p {
-      font-size: 20px; /* Slightly larger text */
+      font-size: 20px;
       margin: 30px 0;
     }
     .button {
@@ -107,6 +107,37 @@
       margin-top: 40px;
       font-family: 'Inter', sans-serif;
     }
+    .client-section {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      margin: 60px 0;
+      max-width: 1000px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .client-section img {
+      max-width: 300px;
+      border-radius: 8px;
+      margin: 20px;
+    }
+    .client-text {
+      flex: 1;
+      min-width: 300px;
+      margin: 20px;
+      text-align: left;
+    }
+    .client-text h3 {
+      font-family: 'Playfair Display', serif;
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+    .client-text p {
+      font-family: 'Inter', sans-serif;
+      font-size: 14px;
+      margin: 5px 0;
+    }
   </style>
 </head>
 <body>
@@ -155,6 +186,31 @@
       <p><strong>Phase 3</strong>: Expanded into global investor circles, luxury partnerships, and elevated six-figure speaking engagements.</p>
     </div>
     <blockquote>"I went from chasing deals to being the one everyone chased."</blockquote>
+  </section>
+
+  <section class="section">
+    <h2>Client Success</h2>
+    <div class="client-section">
+      <img src="https://via.placeholder.com/300x400" alt="Jon Sexton">
+      <div class="client-text">
+        <h3>Jon Sexton</h3>
+        <p>Emmy-Nominated Host, Selling Nashville</p>
+        <p>- Instagram audience grown to 405K followers</p>
+        <p>- 20+ podcast features across real estate and entrepreneurship</p>
+        <p>- 30% increase in real estate leads via social media</p>
+      </div>
+    </div>
+
+    <div class="client-section">
+      <img src="https://via.placeholder.com/300x400" alt="Nicole Perrone">
+      <div class="client-text">
+        <h3>Nicole Perrone</h3>
+        <p>SVP, CrossCountry Mortgage | Host, The BDB Podcast</p>
+        <p>- Instagram audience grown to 171K followers</p>
+        <p>- Featured in ADTV and top mortgage platforms</p>
+        <p>- Launched The BDB Podcast with high-profile guests</p>
+      </div>
+    </div>
   </section>
 </body>
 </html>
